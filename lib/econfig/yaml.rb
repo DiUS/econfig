@@ -25,7 +25,7 @@ module Econfig
     end
 
     def options
-      @options or raise Econfig::UninitializedError
+      @options or {}
     end
   end
 end

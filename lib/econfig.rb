@@ -9,7 +9,6 @@ require "econfig/backend_collection"
 
 module Econfig
   class NotFound < StandardError; end
-  class UninitializedError < StandardError; end
 
   class << self
     extend Forwardable
